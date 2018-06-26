@@ -7,3 +7,7 @@
 //
 // IMPORTANT: you must replace <length of string> with the length of longString
 // using the .length property
+
+var longString = "FreeCodeCamp isn't free"
+
+console.log(longString.length)

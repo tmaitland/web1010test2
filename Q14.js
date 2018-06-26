@@ -17,3 +17,7 @@ var monthsToPrint = 12;
 //    There will be 64 goldfish after 2 month(s)!
 //
 // Note: you must the the above 3 variables in your solution.
+
+for (numGoldfish; monthNumber<=monthsToPrint; monthNumber++){
+    console.log("There will be "+(numGoldfish*=4)+" goldfish after "+monthNumber+" month(s)!")
+}
